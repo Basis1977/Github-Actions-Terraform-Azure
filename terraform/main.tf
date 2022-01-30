@@ -3,7 +3,6 @@ terraform {
     resource_group_name  = "ResourceGroup1lod21355429"
     storage_account_name = "terraformdevopsaz"
     container_name       = "tfstatefile"
-  
   }
 }
 
