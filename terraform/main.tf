@@ -1,8 +1,8 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "githubtest"
-    storage_account_name = "azstore16789"
-    container_name       = "tfstatefile"
+    resource_group_name  = "githubactiontest"
+    storage_account_name = "azgithubactionstorage"
+    container_name       = "tfstate"
     key                  = "dev.terraform.tfstate"
   }
 }
